@@ -1,0 +1,20 @@
+.fa-trash-alt {
+  color: #b10a0a;
+}
+
+.fa-edit {
+  color: #11a3bd;
+}
+
+.fa-edit:hover {
+  color: #20767c;
+  cursor: pointer
+}
+
+.fa-trash-alt:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+  cursor: pointer;
+}
